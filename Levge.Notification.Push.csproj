@@ -7,7 +7,7 @@
 
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>Levge.Notification.Push</PackageId>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<Authors>Serdar ÖZKAN</Authors>
 		<Company>Levge</Company>
 		<Description>Push notification infrastructure with provider-based extensibility. Supports Firebase, Fake, and custom providers.</Description>

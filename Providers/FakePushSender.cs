@@ -39,7 +39,7 @@ namespace Levge.Notification.Push.Providers
             }
             catch (Exception ex)
             {
-                _logger.LogException(ex, "FakePushSender.SendAsync");
+                _logger.LogError(ex, "FakePushSender.SendAsync");
                 throw new LevgeException("Fake push failed.", ex);
             }
         }
