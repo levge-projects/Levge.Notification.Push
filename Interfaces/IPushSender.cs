@@ -4,6 +4,6 @@ namespace Levge.Notification.Push.Interfaces
 {
     public interface IPushSender
     {
-        Task SendAsync(PushMessage message, CancellationToken cancellationToken = default);
+        Task SendAsync(PushMessage message, CancellationToken cancellationToken = default, bool fireAndForget = false);
     }
 }
