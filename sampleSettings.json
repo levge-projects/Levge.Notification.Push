@@ -1,0 +1,10 @@
+{
+  "PushConfig": {
+    "Provider": "Firebase",
+    "Firebase": {
+      "ProjectId": "levge-app",
+      "UseJsonFile": true,
+      "ServiceAccountJsonPath": "firebase/serviceAccount.json"
+    }
+  }
+}
