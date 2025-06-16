@@ -25,7 +25,7 @@ Add this to your `appsettings.json`:
   "Firebase": {
     "ProjectId": "your-project-id",
     "UseJsonFile": true,
-    "ServiceAccountJsonPath": "firebase/serviceAccount.json"
+    "ServiceAccountJsonPath": "firebase/serviceAccount.json" 
   }
 }
 ```
